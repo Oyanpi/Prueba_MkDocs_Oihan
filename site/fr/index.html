@@ -17,7 +17,7 @@
     
     
       
-        <title>HomePage - My Docs</title>
+        <title>Page d'accueil - My Docs</title>
       
     
     
@@ -69,7 +69,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#homepage" class="md-skip">
+        <a href="#page-daccueil" class="md-skip">
           Aller au contenu
         </a>
       
@@ -77,6 +77,10 @@
     <div data-md-component="announce">
       
     </div>
+    
+      <div data-md-color-scheme="default" data-md-component="outdated" hidden>
+        
+      </div>
     
     
       
@@ -102,7 +106,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              HomePage
+              Page d'accueil
             
           </span>
         </div>
@@ -172,6 +176,12 @@
                 <li class="md-select__item">
                   <a href="../ca/" hreflang="ca" class="md-select__link">
                     Catalan
+                  </a>
+                </li>
+              
+                <li class="md-select__item">
+                  <a href="../eu/" hreflang="eu" class="md-select__link">
+                    Euskera
                   </a>
                 </li>
               
@@ -252,7 +262,7 @@
 
   <li class="md-tabs__item">
     <a href="./" class="md-tabs__link md-tabs__link--active">
-      HomePage
+      Page d'accueil
     </a>
   </li>
 
@@ -333,12 +343,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          HomePage
+          Page d'accueil
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        HomePage
+        Page d'accueil
       </a>
       
         
@@ -357,45 +367,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#code-annotation-examples" class="md-nav__link">
-    Code Annotation Examples
+  <a href="#exemples-dannotations-de-code" class="md-nav__link">
+    Exemples d'annotations de code
   </a>
   
-    <nav class="md-nav" aria-label="Code Annotation Examples">
+    <nav class="md-nav" aria-label="Exemples d'annotations de code">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#codeblocks-3" class="md-nav__link">
-    Codeblocks 3
+  <a href="#blocs-de-code-3" class="md-nav__link">
+    Blocs de code 3
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#plain-codeblock" class="md-nav__link">
-    Plain codeblock
+  <a href="#bloc-de-code-simple" class="md-nav__link">
+    Bloc de code simple
   </a>
   
-    <nav class="md-nav" aria-label="Plain codeblock">
+    <nav class="md-nav" aria-label="Bloc de code simple">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#code-for-a-sepecific-language" class="md-nav__link">
-    Code for a sepecific language
+  <a href="#code-pour-une-langue-specifique" class="md-nav__link">
+    Code pour une langue spécifique
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#with-line-numbers" class="md-nav__link">
-    With line numbers
+  <a href="#avec-numeros-de-ligne" class="md-nav__link">
+    Avec numéros de ligne
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#with-line-numbers-higlighted" class="md-nav__link">
-    With line numbers higlighted
+  <a href="#avec-les-numeros-de-ligne-en-surbrillance" class="md-nav__link">
+    Avec les numéros de ligne en surbrillance
   </a>
   
 </li>
@@ -451,29 +461,29 @@
   
 
 
-<h1 id="homepage">HomePage</h1>
-<p>For full documentation visit <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
-<h2 id="code-annotation-examples">Code Annotation Examples</h2>
-<h3 id="codeblocks-3">Codeblocks 3</h3>
-<p>Some <code>code</code>  goes here.</p>
-<h3 id="plain-codeblock">Plain codeblock</h3>
-<p>A plain codeblock:</p>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>def myfunction()
-<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>// some comment
+<h1 id="page-daccueil">Page d'accueil</h1>
+<p>Pour une documentation complète, visitez <a href="https://www.mkdocs.org">mkdocs.org</a>.</p>
+<h2 id="exemples-dannotations-de-code">Exemples d'annotations de code</h2>
+<h3 id="blocs-de-code-3">Blocs de code 3</h3>
+<p>Certains "code" va ici.</p>
+<h3 id="bloc-de-code-simple">Bloc de code simple</h3>
+<p>Un bloc de code simple :</p>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>def mafonction()
+<a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>// un commentaire
 </code></pre></div>
-<h4 id="code-for-a-sepecific-language">Code for a sepecific language</h4>
-<p>Some more code with the <code>py</code> at the start:</p>
-<div class="highlight"><span class="filename">bubble_sort.py</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">def</span> <span class="nf">whatever</span><span class="p">()</span>
+<h4 id="code-pour-une-langue-specifique">Code pour une langue spécifique</h4>
+<p>Un peu plus de code avec le <code>py</code> au début :</p>
+<div class="highlight"><span class="filename">tri_bulles.py</span><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="n">importer</span> <span class="n">tensorflow</span> <span class="n">en</span> <span class="n">tant</span> <span class="n">que</span> <span class="n">tf</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2" href="#__codelineno-1-2"></a><span class="k">def</span> <span class="nf">n</span><span class="s1">&#39;importe quoi()</span>
 </code></pre></div>
-<h4 id="with-line-numbers">With line numbers</h4>
+<h4 id="avec-numeros-de-ligne">Avec numéros de ligne</h4>
 <div class="highlight"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre><span></span><span class="normal"><a href="#__codelineno-2-1">1</a></span>
-<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="k">def</span> <span class="nf">whatever</span><span class="p">()</span>
+<span class="normal"><a href="#__codelineno-2-2">2</a></span></pre></div></td><td class="code"><div><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="n">importer</span> <span class="n">tensorflow</span> <span class="n">en</span> <span class="n">tant</span> <span class="n">que</span> <span class="n">tf</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a><span class="k">def</span> <span class="nf">n</span><span class="s1">&#39;importe quoi()</span>
 </code></pre></div></td></tr></table></div>
-<h4 id="with-line-numbers-higlighted">With line numbers higlighted</h4>
-<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="kn">import</span> <span class="nn">tensorflow</span> <span class="k">as</span> <span class="nn">tf</span>
-<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="hll"><span class="k">def</span> <span class="nf">whatever</span><span class="p">()</span>
+<h4 id="avec-les-numeros-de-ligne-en-surbrillance">Avec les numéros de ligne en surbrillance</h4>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="n">importer</span> <span class="n">tensorflow</span> <span class="n">en</span> <span class="n">tant</span> <span class="n">que</span> <span class="n">tf</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2" href="#__codelineno-3-2"></a><span class="hll"><span class="k">def</span> <span class="nf">n</span><span class="s1">&#39;importe quoi()</span>
 </span></code></pre></div>
 <p><img alt="localized image" src="image.png" /></p>
 
@@ -561,7 +571,7 @@
       <div class="md-dialog__inner md-typeset"></div>
     </div>
     
-    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.sections", "toc.integrate", "navigation.top", "search.suggest", "search highlight", "content.tabs.link", "content.code.annotation", "content.code.copy"], "search": "../assets/javascripts/workers/search.208ed371.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": {"provider": "mike"}}</script>
     
     
       <script src="../assets/javascripts/bundle.b4d07000.min.js"></script>

@@ -31,6 +31,8 @@ theme:
       accent: lime
 
 extra: 
+  version:
+    provider: mike
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com
@@ -52,9 +54,6 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
   - mike
@@ -78,6 +77,9 @@ plugins:
           build: true
         ca:
           name: Catalan
+          build: true
+        eu:
+          name: Euskera
           build: true
 
 copyright: |

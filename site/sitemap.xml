@@ -8,6 +8,7 @@
          <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/"/>
          <xhtml:link rel="alternate" hreflang="es" href="Nonees/"/>
          <xhtml:link rel="alternate" hreflang="ca" href="Noneca/"/>
+         <xhtml:link rel="alternate" hreflang="eu" href="Noneeu/"/>
          
     </url>
     <url>
@@ -18,6 +19,7 @@
          <xhtml:link rel="alternate" hreflang="fr" href="Nonefr/page2/"/>
          <xhtml:link rel="alternate" hreflang="es" href="Nonees/page2/"/>
          <xhtml:link rel="alternate" hreflang="ca" href="Noneca/page2/"/>
+         <xhtml:link rel="alternate" hreflang="eu" href="Noneeu/page2/"/>
          
     </url>
 </urlset>
