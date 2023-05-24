@@ -43,3 +43,7 @@ def n'importe quoi()
 ```
 
 ![localized image](image.png)
+
+## Exemple vidéo
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)

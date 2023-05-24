@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Prueba MkDocs
 
 repo_name: Oyanpi/Prueba_MkDocs_Oihan
 repo_url: https://oyanpi.github.io/Prueba_MkDocs_Oihan/
@@ -58,6 +58,7 @@ markdown_extensions:
 plugins:
   - mike
   - search
+  - mkdocs-video
   - i18n:
       default_language: !ENV [DEFAULT_LANGUAGE, "en"]
       default_language_only: !ENV [DEFAULT_LANGUAGE_ONLY, false]

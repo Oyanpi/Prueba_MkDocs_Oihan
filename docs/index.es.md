@@ -43,3 +43,8 @@ definitivamente lo que sea()
 ```
 
 ![localized image](image.png)
+
+
+## Ejemplo de video
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)

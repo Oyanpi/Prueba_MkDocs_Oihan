@@ -43,3 +43,8 @@ Def el que sigui ()
 ```
 
 ![localized image](image.png)
+
+
+## Exemple de vídeo
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)

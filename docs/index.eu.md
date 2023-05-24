@@ -43,3 +43,7 @@ def edozein dela()
 ```
 
 ![localized image](image.png)
+
+## Bideo Adibidea
+
+![type:video](https://www.youtube.com/embed/LXb3EKWsInQ)
