@@ -1,4 +1,8 @@
 site_name: My Docs
+
+repo_name: Oyanpi/Prueba_MkDocs_Oihan
+repo_url: https://github.com/Oyanpi/Prueba_MkDocs_Oihan
+
 theme:
   name: material
   features: 
@@ -53,6 +57,7 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 plugins:
+  - mike
   - search
   - i18n:
       default_language: !ENV [DEFAULT_LANGUAGE, "en"]

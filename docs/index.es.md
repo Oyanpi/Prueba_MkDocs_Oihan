@@ -1,44 +1,45 @@
-# Pagina principal
+# Página de inicio
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Para obtener la documentación completa, visite [mkdocs.org](https://www.mkdocs.org).
 
-## Ejemplos
+## Ejemplos de anotación de código
 
-### Codeblocks
+### Bloques de código 3
 
-Some `code`  goes here.
 
-### Plain codeblock
+Aquí va algo de `código`.
 
-A plain codeblock:
+### Bloque de código simple
 
-```
-def myfunction()
-// some comment
+Un bloque de código simple:
 
 ```
+def mifuncion()
+// algun comentario
 
-#### Code for a sepecific language
+```
 
-Some more code with the `py` at the start:
+#### Código para un idioma específico
+
+Un poco más de código con `py` al principio:
 
 ``` py title="bubble_sort.py"
-import tensorflow as tf
-def whatever()
+importar tensorflow como tf
+definitivamente lo que sea()
 ```
 
-#### With line numbers
+#### Con números de línea
 
 ``` py linenums="1"
-import tensorflow as tf
-def whatever()
+importar tensorflow como tf
+definitivamente lo que sea()
 ```
 
-#### With line numbers higlighted
+#### Con números de línea resaltados
 
 ``` py hl_lines="2"
-import tensorflow as tf
-def whatever()
+importar tensorflow como tf
+definitivamente lo que sea()
 ```
 
 ![localized image](image.png)
