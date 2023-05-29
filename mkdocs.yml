@@ -79,6 +79,7 @@ plugins:
         eu:
           name: Euskera
           build: true
+  - page-to-pdf
 
 copyright: |
   &copy; 2023 <a href="https://github.com" target="_blank" rel="noopener">Oihan Pintado</a>
