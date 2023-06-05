@@ -1,4 +1,4 @@
-# HomePage 2.0
+# HomePage 4.0
 
 For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
